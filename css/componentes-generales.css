@@ -1,15 +1,12 @@
-/* Reset de box model */
 * { 
   box-sizing: border-box; 
 }
 
-/* Reset de márgenes */
 html, body { 
   margin: 0; 
   padding: 0; 
 }
 
-/* Estilos base del body */
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height: 1.5;
@@ -18,14 +15,12 @@ body {
   background: #f8fafc;
 }
 
-/* Texto destacado */
 .lead {
   margin-top: 8px;
   color: #e6f5fb;
   max-width: 60ch;
 }
 
-/* Accesibilidad: contenido oculto visualmente */
 .visually-hidden {
   position: absolute; 
   width: 1px; 
@@ -38,7 +33,6 @@ body {
   border: 0;
 }
 
-/* Título de sección */
 .seccion-titulo {
   font-weight: 700;
   font-size: 1.15rem;
@@ -46,7 +40,6 @@ body {
   color: #0b4662;
 }
 
-/* Lista de productos */
 .productos {
   list-style: none;
   margin: 0;
@@ -58,7 +51,6 @@ body {
   min-width: 0;
 }
 
-/* Tarjeta de producto */
 .producto {
   background: #ffffff;
   border: 1px solid #e2e8f0;
@@ -70,12 +62,10 @@ body {
   min-width: 0;
 }
 
-/* Hover de producto */
 .producto:hover {
   box-shadow: 0 1px 6px 0 rgba(0, 141, 171, 0.22);
 }
 
-/* Contenedor interno de producto */
 .producto-container {
   display: flex;
   flex-direction: column;
@@ -84,7 +74,6 @@ body {
   min-width: 0;
 }
 
-/* Imagen del producto */
 .producto-media {
   display: grid;
   place-items: center;
@@ -105,7 +94,6 @@ body {
   display: block;
 }
 
-/* Información del producto */
 .producto-info {
   display: flex;
   flex-direction: column;
@@ -124,7 +112,6 @@ body {
   font-size: .875em;
 }
 
-/* Texto adicional */
 .meta {
   color: #616161;
   margin-top: 6px;
@@ -132,7 +119,6 @@ body {
   overflow-wrap: anywhere;
 }
 
-/* Precio */
 .precio {
   color: #ff4a8f;
   font-weight: 700;
@@ -143,13 +129,11 @@ body {
   font-size: 1.1em !important;
 }
 
-/* Título de sección con borde */
 .titulo-seccion {
   border-left: 4px solid #005d89;
   padding-left: 8px;
 }
 
-/* Descripción secundaria */
 .descripcion-seccion {
   color: var(--color-text-secondary);
   font-size: 1em !important;
