@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda Gamer — Especial Ragnarok Online</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/estilos-responsivos.css" />
+  <link rel="stylesheet" href="../css/inicio.css">
+  <link rel="stylesheet" href="../css/bootstrap-custom.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header text-center">
+    <div class="container">
+      <h1 id="hero-title">Prontera Store - Basado en Rangarok Online Clásico</h1>
+      <p class="lead">Juegos inspirados en las mejores clases de Ragnarok Online clásico.</p>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-custom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">Prontera Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <main id="inicio" class="py-5">
+    <div class="container">
+
+      <!-- Sección: Qué es -->
+      <section class="mb-5">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h2 class="section-title">¿Qué es Prontera Store?</h2>
+            <p class="text-description small">
+              Prontera Store es un proyecto inspirado en el universo de <strong>Ragnarok Online</strong>.
+              Aquí encontrarás información, devlogs y contenido sobre nuestros videojuegos temáticos,
+              clases favoritas, arte conceptual y eventos de la comunidad.
+            </p>
+            <p class="text-description small mb-0">
+              Conoce nuestros productos en <a href="../pages/productos.html" class="links-oscuro">Ver productos</a>.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg">
+              <iframe 
+                src="https://www.youtube.com/embed/2L4JnYor8pM" 
+                title="YouTube video"
+                allowfullscreen 
+                class="w-100 h-100">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección: Cómo funciona -->
+      <section class="mb-5">
+        <h3 class="section-title mb-4">Cómo funciona</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card card-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title">1) Explora el universo</h5>
+                <p class="card-text small text-muted">Lee sobre clases, mapas y referencias del clásico RO.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title">2) Sigue los devlogs</h5>
+                <p class="card-text small text-muted">Actualizaciones de desarrollo, arte y prototipos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title">3) Visita la tienda</h5>
+                <p class="card-text small text-muted">
+                  Revisa <a href="../pages/productos.html" class="links-claro">Productos</a> para ver lo disponible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección: Noticias -->
+      <section class="mb-5">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h3 class="section-title mb-0">Noticias destacadas</h3>
+          <a class="btn btn-outline-light btn-sm" href="pages/blog.html">Ver todos</a>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <article class="card card-dark h-100">
+              <img src="../assets/img/noticias1.jpg" class="card-img-top" alt="Foto grupal en Prontera" style="height: 160px;">
+              <div class="card-body">
+                <h5 class="card-title">Prontera se llena de vida</h5>
+                <p class="card-text small text-muted">Reunión masiva de jugadores en la capital de Ragnarok Online.</p>
+                <a href="pages/articulo-prontera-grupal.html" class="links-claro">Leer</a>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card card-dark h-100">
+              <img src="../assets/img/noticias2.jpg" class="card-img-top" alt="Nuevo servidor Brasil 2025" style="height: 160px;">
+              <div class="card-body">
+                <h5 class="card-title">Nuevo servidor en Brasil</h5>
+                <p class="card-text small text-muted">Servidor 2025 con eventos únicos y comunidad en expansión.</p>
+                <a href="pages/articulo-servidor-brasil.html" class="links-claro">Leer</a>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card card-dark h-100">
+              <img src="../assets/img/noticias3.jpeg" class="card-img-top" alt="Mapa inspirado en Río de Janeiro" style="height: 160px;">
+              <div class="card-body">
+                <h5 class="card-title">Río llega a Rune-Midgard</h5>
+                <p class="card-text small text-muted">Mapa vibrante inspirado en Río con paisajes y desafíos.</p>
+                <a href="pages/articulo-mapa-rio.html" class="links-claro">Leer</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección: Artículos relacionados -->
+      <section class="mb-5">
+        <h3 class="section-title mb-4">Artículos relacionados</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card card-ghost h-100">
+              <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="mb-1">Poster “Bosque de Prontera”</h6>
+                  <p class="small text-description mb-0">Ilustración edición limitada.</p>
+                </div>
+                <a href="/productos.html#poster-Prontera" class="btn btn-sm btn-outline-light">Ver</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-ghost h-100">
+              <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="mb-1">OST Lo-Fi de Prontera</h6>
+                  <p class="small text-description mb-0">Selección musical inspirada.</p>
+                </div>
+                <a href="/productos.html#ost-prontera" class="btn btn-sm btn-outline-light">Ver</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-ghost h-100">
+              <div class="card-body d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="mb-1">Pin “Arco de Cazador”</h6>
+                  <p class="small text-description mb-0">Colección Clases — Hunter.</p>
+                </div>
+                <a href="/productos.html#pin-hunter" class="btn btn-sm btn-outline-light">Ver</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-description small mt-2" style="margin-top: 30px !important; margin-bottom: 8px !important;">
+          Para comprar, visita <a href="../pages/productos.html" class="links-oscuro">Productos</a>.
+        </p>
+      </section>
+
+      <!-- CTA -->
+      <section class="text-center">
+        <a href="../pages/productos.html" class="btn btn-lg btn-primary px-4">Ir a Productos →</a>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contacto" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-left">
+        <h4>Contacto</h4>
+        <p>📍 <strong>Dirección:</strong><br> Prontera Norte #9970</p>
+        <p>📧 <strong>Correo:</strong><br> kafra.runemidgard@ragnarok.com</p>
+      </div>
+      <div class="footer-right">
+        <h4>Síguenos</h4>
+        <p>
+          <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a><br>
+          <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a><br>
+          <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

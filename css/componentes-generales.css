@@ -1,0 +1,156 @@
+/* Reset de box model */
+* { 
+  box-sizing: border-box; 
+}
+
+/* Reset de márgenes */
+html, body { 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Estilos base del body */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: .875em;
+  color: #005d89;
+  background: #f8fafc;
+}
+
+/* Texto destacado */
+.lead {
+  margin-top: 8px;
+  color: #e6f5fb;
+  max-width: 60ch;
+}
+
+/* Accesibilidad: contenido oculto visualmente */
+.visually-hidden {
+  position: absolute; 
+  width: 1px; 
+  height: 1px;
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0); 
+  white-space: nowrap; 
+  border: 0;
+}
+
+/* Título de sección */
+.seccion-titulo {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 8px 0 12px;
+  color: #0b4662;
+}
+
+/* Lista de productos */
+.productos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Tarjeta de producto */
+.producto {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+}
+
+/* Hover de producto */
+.producto:hover {
+  box-shadow: 0 1px 6px 0 rgba(0, 141, 171, 0.22);
+}
+
+/* Contenedor interno de producto */
+.producto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+}
+
+/* Imagen del producto */
+.producto-media {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  padding-inline: 50px;
+  min-width: 0;
+  margin: 0;
+}
+
+.producto-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Información del producto */
+.producto-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline: 4px;
+}
+
+.producto-info h3 {
+  margin: 8px 0 6px;
+  font-size: 1.1em;
+  overflow-wrap: anywhere;
+}
+
+.producto-info p {
+  text-align: justify;
+  font-size: .875em;
+}
+
+/* Texto adicional */
+.meta {
+  color: #616161;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+/* Precio */
+.precio {
+  color: #ff4a8f;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.precio {
+  font-size: 1.1em !important;
+}
+
+/* Título de sección con borde */
+.titulo-seccion {
+  border-left: 4px solid #005d89;
+  padding-left: 8px;
+}
+
+/* Descripción secundaria */
+.descripcion-seccion {
+  color: var(--color-text-secondary);
+  font-size: 1em !important;
+}

@@ -1,0 +1,65 @@
+/* Ancho completo en móviles */
+main {
+  width: 100%;
+}
+
+/* Desde 768px: ancho centrado */
+@media (min-width: 768px) {
+  main {
+    width: 90%;
+    padding-inline: 10%;
+    margin-inline: auto;
+  }
+}
+
+/* Desde 768px: grid de 2 columnas y ajustes */
+@media (min-width: 768px) {
+  .productos { grid-template-columns: repeat(2, 1fr); }
+
+  .producto-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .producto-media {
+    flex: 0 0 160px;
+    min-width: 0;
+  }
+
+  .producto-media img {
+    width: 100%;
+    height: 160px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .producto-info {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .producto-container { height: 100%; }
+
+  .producto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100% !important;
+  }
+}
+
+/* Desde 1024px: grid de 3 columnas */
+@media (min-width: 1024px) {
+  .productos { grid-template-columns: repeat(3, 1fr); }
+
+  .producto-container { height: 100%; }
+
+  .producto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100% !important;
+  }
+}

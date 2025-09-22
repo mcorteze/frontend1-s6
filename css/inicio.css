@@ -1,0 +1,159 @@
+/* Paleta de colores */
+:root {
+  /* Colores base */
+  --color-primary: #768bc3;
+  --color-accent: #FF5722;
+
+  /* Escala de tonos */
+  --color-scale-0: #ffffff;
+  --color-scale-1: #e9edf6;
+  --color-scale-2: #d4dbed;
+  --color-scale-3: #bec9e4;
+  --color-scale-4: #a9b7da;
+  --color-scale-5: #94a5d1;
+  --color-scale-6: #7e93c8;
+  --color-scale-7: #6777a2;
+  --color-scale-8: #4f5b7b;
+  --color-scale-9: #373e55;
+  --color-scale-10: #1f222e;
+
+  /* Botones */
+  --btn-primary: var(--color-primary);
+  --btn-secondary: var(--color-scale-3);
+  --btn-warning: #FFC107;
+  --btn-delete: #F44336;
+  --btn-info: #2196F3;
+  --btn-link: var(--color-scale-7);
+  --btn-accent: var(--color-accent);
+
+  /* Textos */
+  --color-text-on-dark: #ffffff;
+  --color-text-primary: #212121;
+  --color-text-secondary: #757575;
+  --color-divider: #BDBDBD;
+
+  /* Superficies y elevaciones */
+  --surface: #FFFFFF;
+  --surface-2: rgba(0,0,0,0.02);
+  --elevation-1: 0 6px 16px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.06);
+  --elevation-2: 0 12px 28px rgba(0,0,0,.10), 0 6px 12px rgba(0,0,0,.08);
+}
+
+/* Títulos de sección */
+.section-title {
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  letter-spacing: 0.3px;
+  color: var(--color-scale-9);
+  margin-bottom: 0.9rem;
+  position: relative;
+}
+.section-title::after {
+  content:"";
+  display:block;
+  width: 64px;
+  height: 3px;
+  margin-top: .5rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-accent), rgba(255,87,34,.35));
+}
+
+/* Texto secundario */
+main .text-muted {
+  color: #eee !important;
+}
+
+/* Tarjetas oscuras */
+.card-dark {
+  border: 1px solid rgba(255,255,255,.06);
+  color: var(--color-scale-1);
+  border-radius: 0px;
+  box-shadow: var(--elevation-1);
+  background-color: var(--color-scale-6);
+}
+.card-dark:hover {
+  box-shadow: var(--elevation-2);
+  border-color: rgba(255,255,255,.12);
+}
+.card-dark::before {
+  content:"";
+  display:block;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-primary), transparent);
+}
+.card-dark .card-title { color: var(--color-scale-0); }
+.card-dark .card-text { color: #eee; }
+
+/* Tarjetas claras */
+.card-ghost {
+  background: var(--color-scale-0);
+  border: 1px solid var(--color-scale-3);
+  color: var(--color-scale-9);
+  border-radius: 12px;
+  box-shadow: var(--elevation-1);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card-ghost:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--elevation-2);
+  border-color: var(--color-scale-5);
+}
+
+/* Media */
+.ratio.rounded-4 {
+  background: var(--color-scale-0);
+  box-shadow: var(--elevation-2);
+  border: 1px solid var(--color-scale-2);
+  border-radius: 0px !important;
+}
+.ratio.rounded-4 iframe { border: 0; }
+
+/* Botones */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--color-primary);
+  --bs-btn-border-color: var(--color-primary);
+  --bs-btn-hover-bg: var(--color-scale-7);
+  --bs-btn-hover-border-color: var(--color-scale-7);
+  --bs-btn-active-bg: var(--color-scale-8);
+  --bs-btn-active-border-color: var(--color-scale-8);
+  --bs-btn-disabled-bg: var(--color-scale-3);
+  --bs-btn-disabled-border-color: var(--color-scale-3);
+  box-shadow: 0 4px 10px rgba(118,139,195,.25);
+}
+.btn-outline-light {
+  --bs-btn-color: var(--color-scale-9);
+  --bs-btn-border-color: var(--color-scale-3);
+  --bs-btn-hover-bg: var(--color-scale-1);
+  --bs-btn-hover-border-color: var(--color-scale-5);
+}
+.btn-outline-light:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* Links */
+.links-oscuro {
+  font-size: .875em !important;
+  color: var(--btn-info) !important;
+  text-decoration: none;
+}
+.links-oscuro:hover {
+  color: var(--color-text-secondary) !important;
+  text-decoration: none;
+}
+.links-claro {
+  font-size: .875em !important;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.links-claro:hover {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+main .text-description {
+  color: var(--color-text-secondary);
+}
+
+/* Utilidades */
+.object-fit-cover { object-fit: cover; }
+section + section { margin-top: 3.25rem; }

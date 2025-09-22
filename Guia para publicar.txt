@@ -1,0 +1,36 @@
+============================ 1) Primer setup (cuando existe origin/gh-pages pero no local)
+git fetch origin --prune
+git branch -r | grep gh-pages
+git checkout -t origin/gh-pages
+# (o con sintaxis moderna: git switch --track -c gh-pages origin/gh-pages)
+
+============================ 2) Publicar (merge de master → gh-pages y push)
+git checkout master
+# ... haces cambios, commit y push en master ...
+git add .
+git commit -m "update sitio"
+git push origin master
+
+git checkout gh-pages
+git pull --ff-only
+git merge master
+git push origin gh-pages
+
+============================ 3) Publicación rutinaria (ya tengo gh-pages local)
+# Trabajas siempre en master
+git checkout master
+# ... cambios ...
+git add .
+git commit -m "otro update"
+git push origin master
+
+# Publicas
+git checkout gh-pages
+git pull --ff-only
+git merge master
+git push origin gh-pages
+
+============================ 4) Volver a master para seguir trabajando
+git checkout master
+git branch --show-current        # confirmar que estoy en master
+git branch -u origin/master master   # (solo si necesito volver a enlazar con remoto)

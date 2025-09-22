@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Caballería de Prontera: Juramento del Lord Knight",
+    "descripcion": "Aventura de mundo abierto con exploración de reinos, asedios a castillos y misiones de caballería. Lidera escoltas, defiende rutas y decide el destino de Prontera en una campaña dinámica.",
+    "genero": "Acción y exploración",
+    "enfoque": "Montura, liderazgo, defensa de territorios",
+    "precio": 29990,
+    "imagen": "https://i.pinimg.com/564x/5e/1b/cc/5e1bcc4689b1f3aba0a345101ac91b7a.jpg",
+    "alt": "Ilustración de un Lord Knight cabalgando en campo abierto"
+  },
+  {
+    "id": 2,
+    "nombre": "Camino del Puño: Crónicas del Champion",
+    "descripcion": "Progresión de arenas y duelos con técnicas espirituales, control del Ki y desafíos por rangos. Supera pruebas de temple y precisión para dominar combinaciones legendarias.",
+    "genero": "Lucha y desafíos",
+    "enfoque": "Timing, combos, gestión de espíritu",
+    "precio": 24990,
+    "imagen": "https://cosplayfu-website.s3.amazonaws.com/_Photo/character/mini/12061.jpg",
+    "alt": "Champion en pose de combate dentro de una arena"
+  },
+  {
+    "id": 3,
+    "nombre": "Forja Maestra: Taller de Hollgrehenn",
+    "descripcion": "Simulador de economía y manufactura: refina, forja y negocia con comerciantes y aventureros. Optimiza recursos, gestiona pedidos y desbloquea planos únicos para equipamiento épico.",
+    "genero": "Gestión y simulación",
+    "enfoque": "Crafting, comercio, optimización",
+    "precio": 21990,
+    "imagen": "https://i.pinimg.com/736x/64/b7/63/64b76364502ba0bc8ce918d03cc982d6.jpg",
+    "alt": "Taller de forja con yunques, engranajes y herramientas"
+  },
+  {
+    "id": 4,
+    "nombre": "Aceros de Einbroch: Imperio Artesano",
+    "descripcion": "Tycoon steampunk de manufactura. Construye líneas de producción, mejora hornos y automatiza talleres mientras compites por contratos de ciudades industriales y reputación entre gremios.",
+    "genero": "Gestión/Tycoon",
+    "enfoque": "Cadenas de producción, planos raros, subasta de materiales",
+    "precio": 22990,
+    "imagen": "https://i.pinimg.com/736x/d8/12/58/d812583f33f08cd11160c516ed651292.jpg",
+    "alt": "Taller de forja con yunques, engranajes y herramientas"
+  },
+  {
+    "id": 5,
+    "nombre": "Monasterio del Zén: Torneos Ascendentes",
+    "descripcion": "Roguelite de arenas donde cada victoria otorga mantras y técnicas espirituales. Arriesga tu Ki para potenciar el Asura, encadena parries perfectos y enfréntate a maestros de estilos únicos.",
+    "genero": "Lucha/Roguelite",
+    "enfoque": "Builds de técnicas, riesgo-recompensa, boss rush",
+    "precio": 25990,
+    "imagen": "https://i.pinimg.com/736x/98/ce/13/98ce1398a50c83a8b17d19bd58a0163e.jpg",
+    "alt": "Guerrero en postura de combate en un dojo"
+  },
+  {
+    "id": 6,
+    "nombre": "Rutas de Carbón: Tren Mercante de Midgard",
+    "descripcion": "Gestiona un imperio logístico: diseña vías férreas, asegura caravanas y sincroniza talleres para maximizar ganancias entre Einbroch, Geffen y Prontera con eventos de mercado dinámicos.",
+    "genero": "Simulación/Logística",
+    "enfoque": "Rutas óptimas, carga vs. valor, contratos dinámicos",
+    "precio": 23990,
+    "imagen": "https://write.ratemyserver.net/wp-content/uploads/2008/09/title2.jpg",
+    "alt": "Mapa de rutas comerciales con engranajes y rieles"
+  },
+  {
+    "id": 7,
+    "nombre": "Ritmo de Asura: Puños del Amanecer",
+    "descripcion": "Híbrido de ritmo y combate. Pulsa al compás para cargar espíritu, encadena combos y libera técnicas secretas en duelos estilizados con tablas de clasificación globales.",
+    "genero": "Ritmo/Acción",
+    "enfoque": "Precisión musical, chain combos, entrenamiento de dojo",
+    "precio": 24490,
+    "imagen": "https://i.pinimg.com/236x/c4/a1/be/c4a1be2b638b6109a48ad72ef9a4215e.jpg",
+    "alt": "Artista marcial ejecutando un golpe en una arena iluminada"
+  },
+  {
+    "id": 8,
+    "nombre": "Cruzadas de Glast Heim: Lanzas y Honor",
+    "descripcion": "Comando táctico de escuadrones montados. Alterna entre órdenes de formación y acción directa para romper líneas enemigas, rescatar aldeas y recuperar reliquias olvidadas.",
+    "genero": "Táctica/Acción",
+    "enfoque": "Cargas a caballo, moral de tropas, asedios puntuales",
+    "precio": 28990,
+    "imagen": "https://i.pinimg.com/736x/cb/85/3c/cb853cc59cad11ef5d8a94f638929111.jpg",
+    "alt": "Caballeros con lanzas avanzando hacia una fortaleza antigua"
+  },
+  {
+    "id": 9,
+    "nombre": "Estandartes de Rune-Midgard: Guerra de Fronteras",
+    "descripcion": "Multijugador por objetivos con duelos montados, captura de baluartes y sinergias entre escuadrones. Personaliza tu lanza, estandarte y montura para liderar la vanguardia.",
+    "genero": "Acción/Multijugador",
+    "enfoque": "Control de territorio, roles de caballería, progresión de clanes",
+    "precio": 27490,
+    "imagen": "https://i.pinimg.com/736x/d9/94/23/d99423b2a5ac74c8ab5e03f175384dc4.jpg",
+    "alt": "Duelos de caballeros en un campo de batalla con estandartes"
+  }
+]
