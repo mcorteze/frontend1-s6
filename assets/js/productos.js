@@ -4,7 +4,7 @@ let productosGlobal = [];
 // Cargar y renderizar productos
 async function cargarProductos() {
   try {
-    const res = await fetch("assets/data/productos.json");
+    const res = await fetch("../assets/data/productos.json");
     if (!res.ok) {
       throw new Error("Error al cargar productos: " + res.status);
     }
