@@ -2,7 +2,7 @@
 async function asegurarProductosGlobal() {
   if (!window.productosGlobal) {
     try {
-      const res = await fetch("/assets/data/productos.json");
+      const res = await fetch("assets/data/productos.json");
       window.productosGlobal = await res.json();
     } catch (err) {
       console.error("No se pudo cargar productos.json", err);
